@@ -3,6 +3,9 @@ import time
 import random
 from PIL import Image
 
+#ALL IMAGES AND MUSIC ARE IN THE RESOURCES ZIP FILE
+#THIS WAS MADE FOR LEARNING AND EXPERIENCE AND NOT MADE TO BE SOLD OR DISTRIBUTED
+
 #initialize pygame
 pygame.init()
 pygame.mixer.init
@@ -39,7 +42,7 @@ background_menu = pygame.image.load("F:\\Windows Folders\\Documents\\code docs\\
 background_menu = pygame.transform.scale(background_menu, (display_width, display_height))
 
 #Initialize the running images
-# Load all frames into a list
+# Load all frames into a list 
 sonic_frames = [
     pygame.image.load("F:\\Windows Folders\\Documents\\code docs\\games\\snonic game\\resources\\images\\running\\edited\\frame 1.PNG"),
     pygame.image.load("F:\\Windows Folders\\Documents\\code docs\\games\\snonic game\\resources\\images\\running\\edited\\frame 2.PNG"),
